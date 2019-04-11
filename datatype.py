@@ -3,7 +3,7 @@ import numpy as np
 
 # 构建5*3 矩阵， 只是分配了空间，未初始化
 x = t.Tensor(5, 3)
-print(x)
+# print(x)
 x = t.Tensor([[1,2], [3,4]])    # 此处是2维的张量
 print(x)
 
@@ -95,3 +95,4 @@ a =  t.randn(3,4)
 print(a, a[0][2])
 # 取前2行，前2列
 print(a[:2, 0:2])
+
